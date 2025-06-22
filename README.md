@@ -334,3 +334,21 @@ Request body:
 
 **Returns:**  
 The updated shipment object.
+
+## 4. Delay Detection Logic
+
+This section includes the logic used to determine whether a shipment is at risk of delay.  
+
+The detection is based on the three rules mentioned in section 1:
+
+- **Stage Duration Limits**  
+  Each shipment stage has a maximum expected duration. If a shipment remains in a stage longer than allowed, it is flagged as at risk.
+
+- **Early Stage & Imminent Delivery Conflict**  
+  If a shipment is still in an early stage (e.g., "Picked up", "In transit") but the expected delivery is within 48 hours, it is considered potentially delayed.
+
+- **Invalid Route Progression**  
+  If the shipment's `expectedNext` location is not part of its `routePlan`, this suggests a potential misrouting. This rule helps identify issues *before* they happen, allowing for proactive intervention.
+
+You can find the full implementation of the function and test cases in the [`ShipmentDelay.js`](./ShipmentDelay.js) file.
+
