@@ -327,7 +327,7 @@
     "expectedDelivery": "2025-07-04",
     "lastUpdate": {
       "timestamp": "2025-06-23T23:15:00Z",
-      "content": "Shipment departed from Dubai hub"
+      "content": "Shipping label created; awaiting pickup"
     },
     "currentLocation": {
       "city": "Dubai",
