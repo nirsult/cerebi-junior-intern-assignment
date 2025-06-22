@@ -27,6 +27,7 @@
       "Springfield",
       "West Hartford"
     ],
+    "expectedNext": "null",
     "customsStatus": "Cleared",
     "riskLevel": "Low",
     "createdAt": "2025-06-20T10:00:00Z",
@@ -62,6 +63,7 @@
       "Haifa",
       "Afula"
     ],
+    "expectedNext": "Afula",
     "customsStatus": "Not required",
     "riskLevel": "High",
     "createdAt": "2025-06-22T14:00:00Z",
@@ -97,6 +99,7 @@
       "San Jose",
       "Watsonville"
     ],
+    "expectedNext": "Watsonville",
     "customsStatus": "Cleared",
     "riskLevel": "Medium",
     "createdAt": "2025-06-20T08:00:00Z",
@@ -132,6 +135,7 @@
       "Lille",
       "Paris"
     ],
+    "expectedNext": "Paris",
     "customsStatus": "Cleared",
     "riskLevel": "High",
     "createdAt": "2025-06-18T14:00:00Z",
@@ -166,6 +170,7 @@
       "Brisbane",
       "Gold Coast"
     ],
+    "expectedNext": "Gold Coast",
     "customsStatus": "Not required",
     "riskLevel": "Low",
     "createdAt": "2025-06-24T09:10:00Z",
@@ -202,6 +207,7 @@
       "Seoul",
       "Tokyo"
     ],
+    "expectedNext": "Tokyo",
     "customsStatus": "In transit",
     "riskLevel": "High",
     "createdAt": "2025-06-20T09:30:00Z",
@@ -237,6 +243,7 @@
       "Reading",
       "London"
     ],
+    "expectedNext": "London",
     "customsStatus": "Not applicable",
     "riskLevel": "Medium",
     "createdAt": "2025-06-23T09:45:00Z",
@@ -272,6 +279,7 @@
       "Florence",
       "Rome"
     ],
+    "expectedNext": "Rome",
     "customsStatus": "Cleared",
     "riskLevel": "Low",
     "createdAt": "2025-06-21T10:30:00Z",
@@ -307,6 +315,7 @@
       "Linz",
       "Vienna"
     ],
+    "expectedNext": "Vienna",
     "customsStatus": "Cleared",
     "riskLevel": "Medium",
     "createdAt": "2025-06-20T12:00:00Z",
@@ -342,6 +351,7 @@
       "Dubai",
       "Bangkok"
     ],
+    "expectedNext": "Bangkok",
     "customsStatus": "In transit",
     "riskLevel": "Low",
     "createdAt": "2025-06-20T08:40:00Z",
@@ -377,6 +387,7 @@
       "Ottawa",
       "Toronto"
     ],
+    "expectedNext": "Toronto",
     "customsStatus": "Cleared",
     "riskLevel": "High",
     "createdAt": "2025-06-21T09:00:00Z",
@@ -412,6 +423,7 @@
       "Lisbon",
       "Porto"
     ],
+    "expectedNext": "Porto",
     "customsStatus": "Cleared",
     "riskLevel": "Medium",
     "createdAt": "2025-06-22T07:30:00Z",
@@ -446,6 +458,7 @@
       "Busan",
       "Seoul"
     ],
+    "expectedNext": "Seoul",
     "customsStatus": "Not required",
     "riskLevel": "Low",
     "createdAt": "2025-06-24T04:15:00Z",
@@ -480,6 +493,7 @@
       "Augsburg",
       "Munich"
     ],
+    "expectedNext": "Munich",
     "customsStatus": "Not required",
     "riskLevel": "Medium",
     "createdAt": "2025-06-23T16:00:00Z",
@@ -515,6 +529,7 @@
       "Larissa",
       "Athens"
     ],
+    "expectedNext": "Athens",
     "customsStatus": "Cleared",
     "riskLevel": "Low",
     "createdAt": "2025-06-21T13:20:00Z",
