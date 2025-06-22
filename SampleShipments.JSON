@@ -1,0 +1,525 @@
+[
+  {
+    "id": "#A677",
+    "destination": {
+      "city": "West Hartford",
+      "state": "CT",
+      "country": "USA",
+      "street": "Elmwood Rd 22",
+      "postalCode": "06107"
+    },
+    "status": "Delivered",
+    "expectedDelivery": "2025-06-24",
+    "lastUpdate": {
+      "timestamp": "2025-06-24T07:49:00Z",
+      "content": "Shipment delivered to recipient"
+    },
+    "currentLocation": {
+      "city": "West Hartford",
+      "country": "USA",
+      "coordinates": {
+        "lat": 41.7620,
+        "lon": -72.7420
+      }
+    },
+    "routePlan": [
+      "New York",
+      "Springfield",
+      "West Hartford"
+    ],
+    "customsStatus": "Cleared",
+    "riskLevel": "Low",
+    "createdAt": "2025-06-20T10:00:00Z",
+    "assignedCarrier": "UPS",
+    "weightKg": 4.2,
+    "deliveryType": "Regular"
+  },
+  {
+    "id": "#B473",
+    "destination": {
+      "city": "Afula",
+      "state": "IL",
+      "country": "Israel",
+      "street": "HaHistadrut 10",
+      "postalCode": "18345"
+    },
+    "status": "Picked up",
+    "expectedDelivery": "2025-06-25",
+    "lastUpdate": {
+      "timestamp": "2025-06-24T06:30:00Z",
+      "content": "Package picked up from origin facility"
+    },
+    "currentLocation": {
+      "city": "Haifa",
+      "country": "Israel",
+      "coordinates": {
+        "lat": 32.7940,
+        "lon": 34.9896
+      }
+    },
+    "routePlan": [
+      "Tel Aviv",
+      "Haifa",
+      "Afula"
+    ],
+    "customsStatus": "Not required",
+    "riskLevel": "High",
+    "createdAt": "2025-06-22T14:00:00Z",
+    "assignedCarrier": "ILPost",
+    "weightKg": 12.4,
+    "deliveryType": "Regular"
+  },
+  {
+    "id": "#C925",
+    "destination": {
+      "city": "Watsonville",
+      "state": "CA",
+      "country": "USA",
+      "street": "Main St 451",
+      "postalCode": "95076"
+    },
+    "status": "Arrived destination",
+    "expectedDelivery": "2025-06-26",
+    "lastUpdate": {
+      "timestamp": "2025-06-23T11:15:00Z",
+      "content": "Shipment arrived at final destination sorting center"
+    },
+    "currentLocation": {
+      "city": "Watsonville",
+      "country": "USA",
+      "coordinates": {
+        "lat": 36.9102,
+        "lon": -121.7569
+      }
+    },
+    "routePlan": [
+      "Los Angeles",
+      "San Jose",
+      "Watsonville"
+    ],
+    "customsStatus": "Cleared",
+    "riskLevel": "Medium",
+    "createdAt": "2025-06-20T08:00:00Z",
+    "assignedCarrier": "FedEx",
+    "weightKg": 6.7,
+    "deliveryType": "Regular"
+  },
+  {
+    "id": "#D486",
+    "destination": {
+      "city": "Paris",
+      "state": "Île-de-France",
+      "country": "France",
+      "street": "Rue de Lyon 118",
+      "postalCode": "75012"
+    },
+    "status": "Local facility",
+    "expectedDelivery": "2025-06-24",
+    "lastUpdate": {
+      "timestamp": "2025-06-21T09:30:00Z",
+      "content": "Arrived at local Paris facility"
+    },
+    "currentLocation": {
+      "city": "Paris",
+      "country": "France",
+      "coordinates": {
+        "lat": 48.8566,
+        "lon": 2.3522
+      }
+    },
+    "routePlan": [
+      "Brussels",
+      "Lille",
+      "Paris"
+    ],
+    "customsStatus": "Cleared",
+    "riskLevel": "High",
+    "createdAt": "2025-06-18T14:00:00Z",
+    "assignedCarrier": "La Poste",
+    "weightKg": 6.1,
+    "deliveryType": "Regular"
+  },
+  {
+    "id": "#E590",
+    "destination": {
+      "city": "Gold Coast",
+      "state": "Queensland",
+      "country": "Australia",
+      "street": "Surfers Paradise Blvd 45",
+      "postalCode": "4217"
+    },
+    "status": "Label created",
+    "expectedDelivery": "2025-07-02",
+    "lastUpdate": {
+      "timestamp": "2025-06-24T09:15:00Z",
+      "content": "Shipping label created; awaiting pickup"
+    },
+    "currentLocation": {
+      "city": "Brisbane",
+      "country": "Australia",
+      "coordinates": {
+        "lat": -27.4698,
+        "lon": 153.0251
+      }
+    },
+    "routePlan": [
+      "Brisbane",
+      "Gold Coast"
+    ],
+    "customsStatus": "Not required",
+    "riskLevel": "Low",
+    "createdAt": "2025-06-24T09:10:00Z",
+    "assignedCarrier": "Australia Post",
+    "weightKg": 2.3,
+    "deliveryType": "Regular"
+  },
+  {
+    "id": "#F986",
+    "destination": {
+      "city": "Tokyo",
+      "state": "Tokyo Prefecture",
+      "country": "Japan",
+      "street": "2-4-1 Marunouchi",
+      "postalCode": "100-0005"
+    },
+    "status": "In transit",
+    "expectedDelivery": "2025-06-25",
+    "lastUpdate": {
+      "timestamp": "2025-06-22T16:00:00Z",
+      "content": "Shipment left international hub in Seoul"
+    },
+    "currentLocation": {
+      "city": "Seoul",
+      "country": "South Korea",
+      "coordinates": {
+        "lat": 37.5665,
+        "lon": 126.9780
+      }
+    },
+    "routePlan": [
+      "Tel Aviv",
+      "Dubai",
+      "Seoul",
+      "Tokyo"
+    ],
+    "customsStatus": "In transit",
+    "riskLevel": "High",
+    "createdAt": "2025-06-20T09:30:00Z",
+    "assignedCarrier": "JapanPost",
+    "weightKg": 9.1,
+    "deliveryType": "Express"
+  },
+  {
+    "id": "#G775",
+    "destination": {
+      "city": "London",
+      "state": "England",
+      "country": "United Kingdom",
+      "street": "221B Baker Street",
+      "postalCode": "NW1 6XE"
+    },
+    "status": "Picked up",
+    "expectedDelivery": "2025-07-04",
+    "lastUpdate": {
+      "timestamp": "2025-06-23T11:00:00Z",
+      "content": "Shipment picked up by carrier"
+    },
+    "currentLocation": {
+      "city": "London",
+      "country": "United Kingdom",
+      "coordinates": {
+        "lat": 51.5074,
+        "lon": -0.1278
+      }
+    },
+    "routePlan": [
+      "Birmingham",
+      "Reading",
+      "London"
+    ],
+    "customsStatus": "Not applicable",
+    "riskLevel": "Medium",
+    "createdAt": "2025-06-23T09:45:00Z",
+    "assignedCarrier": "Royal Mail",
+    "weightKg": 5.6,
+    "deliveryType": "Express"
+  },
+  {
+    "id": "#H167",
+    "destination": {
+      "city": "Rome",
+      "state": "Lazio",
+      "country": "Italy",
+      "street": "Via del Corso 123",
+      "postalCode": "00187"
+    },
+    "status": "Out for delivery",
+    "expectedDelivery": "2025-06-25",
+    "lastUpdate": {
+      "timestamp": "2025-06-24T13:00:00Z",
+      "content": "Out for delivery"
+    },
+    "currentLocation": {
+      "city": "Rome",
+      "country": "Italy",
+      "coordinates": {
+        "lat": 41.9028,
+        "lon": 12.4964
+      }
+    },
+    "routePlan": [
+      "Naples",
+      "Florence",
+      "Rome"
+    ],
+    "customsStatus": "Cleared",
+    "riskLevel": "Low",
+    "createdAt": "2025-06-21T10:30:00Z",
+    "assignedCarrier": "Poste Italiane",
+    "weightKg": 3.7,
+    "deliveryType": "Regular"
+  },
+  {
+    "id": "#I912",
+    "destination": {
+      "city": "Vienna",
+      "state": "Vienna",
+      "country": "Austria",
+      "street": "Kärntner Strasse 50",
+      "postalCode": "1010"
+    },
+    "status": "Arrived destination",
+    "expectedDelivery": "2025-06-27",
+    "lastUpdate": {
+      "timestamp": "2025-06-24T08:00:00Z",
+      "content": "Shipment arrived at Vienna final delivery hub"
+    },
+    "currentLocation": {
+      "city": "Vienna",
+      "country": "Austria",
+      "coordinates": {
+        "lat": 48.2082,
+        "lon": 16.3738
+      }
+    },
+    "routePlan": [
+      "Prague",
+      "Linz",
+      "Vienna"
+    ],
+    "customsStatus": "Cleared",
+    "riskLevel": "Medium",
+    "createdAt": "2025-06-20T12:00:00Z",
+    "assignedCarrier": "Österreichische Post",
+    "weightKg": 4.9,
+    "deliveryType": "Regular"
+  },
+  {
+    "id": "#J824",
+    "destination": {
+      "city": "Bangkok",
+      "state": "Bangkok",
+      "country": "Thailand",
+      "street": "Rama IV Road 172",
+      "postalCode": "10500"
+    },
+    "status": "Label created",
+    "expectedDelivery": "2025-07-04",
+    "lastUpdate": {
+      "timestamp": "2025-06-23T23:15:00Z",
+      "content": "Shipment departed from Dubai hub"
+    },
+    "currentLocation": {
+      "city": "Dubai",
+      "country": "UAE",
+      "coordinates": {
+        "lat": 25.276987,
+        "lon": 55.296249
+      }
+    },
+    "routePlan": [
+      "Tel Aviv",
+      "Dubai",
+      "Bangkok"
+    ],
+    "customsStatus": "In transit",
+    "riskLevel": "Low",
+    "createdAt": "2025-06-20T08:40:00Z",
+    "assignedCarrier": "Thailand Post",
+    "weightKg": 7.3,
+    "deliveryType": "Express"
+  },
+  {
+    "id": "#K305",
+    "destination": {
+      "city": "Toronto",
+      "state": "Ontario",
+      "country": "Canada",
+      "street": "Bay Street 305",
+      "postalCode": "M5H 2R3"
+    },
+    "status": "In transit",
+    "expectedDelivery": "2025-07-03",
+    "lastUpdate": {
+      "timestamp": "2025-06-24T08:10:00Z",
+      "content": "Courier is en route to final destination"
+    },
+    "currentLocation": {
+      "city": "Toronto",
+      "country": "Canada",
+      "coordinates": {
+        "lat": 43.6532,
+        "lon": -79.3832
+      }
+    },
+    "routePlan": [
+      "Montreal",
+      "Ottawa",
+      "Toronto"
+    ],
+    "customsStatus": "Cleared",
+    "riskLevel": "High",
+    "createdAt": "2025-06-21T09:00:00Z",
+    "assignedCarrier": "Canada Post",
+    "weightKg": 6.0,
+    "deliveryType": "Regular"
+  },
+  {
+    "id": "#M452",
+    "destination": {
+      "city": "Porto",
+      "state": "Porto District",
+      "country": "Portugal",
+      "street": "Rua das Flores 102",
+      "postalCode": "4050-263"
+    },
+    "status": "In transit",
+    "expectedDelivery": "2025-06-26",
+    "lastUpdate": {
+      "timestamp": "2025-06-24T10:45:00Z",
+      "content": "Departed Lisbon distribution center"
+    },
+    "currentLocation": {
+      "city": "Lisbon",
+      "country": "Portugal",
+      "coordinates": {
+        "lat": 38.7169,
+        "lon": -9.1399
+      }
+    },
+    "routePlan": [
+      "Madrid",
+      "Lisbon",
+      "Porto"
+    ],
+    "customsStatus": "Cleared",
+    "riskLevel": "Medium",
+    "createdAt": "2025-06-22T07:30:00Z",
+    "assignedCarrier": "CTT Express",
+    "weightKg": 7.8,
+    "deliveryType": "Regular"
+  },
+  {
+    "id": "#N301",
+    "destination": {
+      "city": "Seoul",
+      "state": "Seoul",
+      "country": "South Korea",
+      "street": "Sejong-daero 209",
+      "postalCode": "04519"
+    },
+    "status": "Label created",
+    "expectedDelivery": "2025-06-30",
+    "lastUpdate": {
+      "timestamp": "2025-06-24T04:20:00Z",
+      "content": "Shipping label created; awaiting pickup"
+    },
+    "currentLocation": {
+      "city": "Seoul",
+      "country": "South Korea",
+      "coordinates": {
+        "lat": 37.5665,
+        "lon": 126.9780
+      }
+    },
+    "routePlan": [
+      "Busan",
+      "Seoul"
+    ],
+    "customsStatus": "Not required",
+    "riskLevel": "Low",
+    "createdAt": "2025-06-24T04:15:00Z",
+    "assignedCarrier": "Korea Post",
+    "weightKg": 2.1,
+    "deliveryType": "Express"
+  },
+  {
+    "id": "#P188",
+    "destination": {
+      "city": "Munich",
+      "state": "Bavaria",
+      "country": "Germany",
+      "street": "Leopoldstraße 23",
+      "postalCode": "80802"
+    },
+    "status": "Picked up",
+    "expectedDelivery": "2025-06-27",
+    "lastUpdate": {
+      "timestamp": "2025-06-24T11:00:00Z",
+      "content": "Shipment picked up from sender"
+    },
+    "currentLocation": {
+      "city": "Augsburg",
+      "country": "Germany",
+      "coordinates": {
+        "lat": 48.3705,
+        "lon": 10.8978
+      }
+    },
+    "routePlan": [
+      "Augsburg",
+      "Munich"
+    ],
+    "customsStatus": "Not required",
+    "riskLevel": "Medium",
+    "createdAt": "2025-06-23T16:00:00Z",
+    "assignedCarrier": "DHL",
+    "weightKg": 4.6,
+    "deliveryType": "Regular"
+  },
+  {
+    "id": "#Q720",
+    "destination": {
+      "city": "Athens",
+      "state": "Attica",
+      "country": "Greece",
+      "street": "Ermou Street 18",
+      "postalCode": "10563"
+    },
+    "status": "Out for delivery",
+    "expectedDelivery": "2025-06-24",
+    "lastUpdate": {
+      "timestamp": "2025-06-24T08:00:00Z",
+      "content": "Courier on route to recipient"
+    },
+    "currentLocation": {
+      "city": "Athens",
+      "country": "Greece",
+      "coordinates": {
+        "lat": 37.9838,
+        "lon": 23.7275
+      }
+    },
+    "routePlan": [
+      "Thessaloniki",
+      "Larissa",
+      "Athens"
+    ],
+    "customsStatus": "Cleared",
+    "riskLevel": "Low",
+    "createdAt": "2025-06-21T13:20:00Z",
+    "assignedCarrier": "ELTA Courier",
+    "weightKg": 5.4,
+    "deliveryType": "Regular"
+  }
+]
