@@ -1,5 +1,5 @@
 [
-  {
+   {
     "id": "#A677",
     "destination": {
       "city": "West Hartford",
@@ -27,7 +27,7 @@
       "Springfield",
       "West Hartford"
     ],
-    "expectedNext": "null",
+    "expectedNext": null,
     "customsStatus": "Cleared",
     "riskLevel": "Low",
     "createdAt": "2025-06-20T10:00:00Z",
@@ -83,7 +83,7 @@
     "status": "Arrived destination",
     "expectedDelivery": "2025-06-26",
     "lastUpdate": {
-      "timestamp": "2025-06-23T11:15:00Z",
+      "timestamp": "2025-06-23T09:15:00Z",
       "content": "Shipment arrived at final destination sorting center"
     },
     "currentLocation": {
